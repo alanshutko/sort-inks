@@ -24,14 +24,14 @@ extension NSColor {
 
 var colors : Set<NSColor> = Set.init()
 
-let path = Bundle.main.path(forResource: "josh_collected_inks", ofType: "csv")!
+let path = Bundle.main.path(forResource: "jeffrey_collected_inks", ofType: "csv")!
 let stream = InputStream(fileAtPath: path)!
 let csv = try! CSVReader(stream: stream, hasHeaderRow: true, delimiter: ";")
 while csv.next() != nil {
     let color = NSColor.init(hexString: csv["Color"]!)
-    if csv["Type"] == "bottle" {
+//    if csv["Type"] == "bottle" {
         colors.insert(color)
-    }
+//    }
 }
 
 let sorted_colors = colors.sorted { (a, b) -> Bool in
