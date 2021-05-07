@@ -9,7 +9,37 @@
 /* Begin PBXBuildFile section */
 		2A223541262DE2EC004CA4EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A223540262DE2EC004CA4EC /* main.swift */; };
 		2A22354C262DE4F1004CA4EC /* CSV in Frameworks */ = {isa = PBXBuildFile; productRef = 2A22354B262DE4F1004CA4EC /* CSV */; };
+		2A69E1A5262E5ADE0003D479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E1A4262E5ADE0003D479 /* AppDelegate.swift */; };
+		2A69E1A7262E5ADE0003D479 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E1A6262E5ADE0003D479 /* SceneDelegate.swift */; };
+		2A69E1A9262E5ADE0003D479 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E1A8262E5ADE0003D479 /* ContentView.swift */; };
+		2A69E1AB262E5ADE0003D479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A69E1AA262E5ADE0003D479 /* Assets.xcassets */; };
+		2A69E1AE262E5ADE0003D479 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A69E1AD262E5ADE0003D479 /* Preview Assets.xcassets */; };
+		2A69E1B1262E5ADE0003D479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A69E1AF262E5ADE0003D479 /* LaunchScreen.storyboard */; };
+		2A69E1BC262E5ADF0003D479 /* Sort_InksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E1BB262E5ADF0003D479 /* Sort_InksTests.swift */; };
+		2A69E1C7262E5ADF0003D479 /* Sort_InksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E1C6262E5ADF0003D479 /* Sort_InksUITests.swift */; };
+		2A7C6AB8262E15C100B523EB /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 2A7C6AB7262E15C100B523EB /* ArgumentParser */; };
+		2A7C6ABF262E16EF00B523EB /* CrossPlatformRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C6ABA262E16EE00B523EB /* CrossPlatformRenderer.swift */; };
+		2A7C6AC0262E16EF00B523EB /* ImageFormatUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C6ABC262E16EE00B523EB /* ImageFormatUtility.swift */; };
+		2A7C6AC1262E16EF00B523EB /* PushDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C6ABE262E16EF00B523EB /* PushDraw.swift */; };
+		2A7C6AC2262E16EF00B523EB /* CrossPlatformDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C6ABD262E16EF00B523EB /* CrossPlatformDefines.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A69E1B8262E5ADF0003D479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A223535262DE2EC004CA4EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A69E1A1262E5ADE0003D479;
+			remoteInfo = "Sort Inks";
+		};
+		2A69E1C3262E5ADF0003D479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A223535262DE2EC004CA4EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A69E1A1262E5ADE0003D479;
+			remoteInfo = "Sort Inks";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		2A22353B262DE2EC004CA4EC /* CopyFiles */ = {
@@ -26,6 +56,24 @@
 /* Begin PBXFileReference section */
 		2A22353D262DE2EC004CA4EC /* Sort Colors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sort Colors"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A223540262DE2EC004CA4EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2A69E1A2262E5ADE0003D479 /* Sort Inks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sort Inks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A69E1A4262E5ADE0003D479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A69E1A6262E5ADE0003D479 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A69E1A8262E5ADE0003D479 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A69E1AA262E5ADE0003D479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A69E1AD262E5ADE0003D479 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A69E1B0262E5ADE0003D479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A69E1B2262E5ADE0003D479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A69E1B7262E5ADF0003D479 /* Sort InksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sort InksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A69E1BB262E5ADF0003D479 /* Sort_InksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort_InksTests.swift; sourceTree = "<group>"; };
+		2A69E1BD262E5ADF0003D479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A69E1C2262E5ADF0003D479 /* Sort InksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sort InksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A69E1C6262E5ADF0003D479 /* Sort_InksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort_InksUITests.swift; sourceTree = "<group>"; };
+		2A69E1C8262E5ADF0003D479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7C6ABA262E16EE00B523EB /* CrossPlatformRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPlatformRenderer.swift; sourceTree = "<group>"; };
+		2A7C6ABC262E16EE00B523EB /* ImageFormatUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFormatUtility.swift; sourceTree = "<group>"; };
+		2A7C6ABD262E16EF00B523EB /* CrossPlatformDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPlatformDefines.swift; sourceTree = "<group>"; };
+		2A7C6ABE262E16EF00B523EB /* PushDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushDraw.swift; sourceTree = "<group>"; };
 		2A9D7BBC262DE762003C032A /* Sort Inks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Sort Inks.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -34,7 +82,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7C6AB8262E15C100B523EB /* ArgumentParser in Frameworks */,
 				2A22354C262DE4F1004CA4EC /* CSV in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A69E19F262E5ADE0003D479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A69E1B4262E5ADF0003D479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A69E1BF262E5ADF0003D479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +115,11 @@
 			isa = PBXGroup;
 			children = (
 				2A9D7BBC262DE762003C032A /* Sort Inks.playground */,
+				2A3A6382262E6F20004A2D83 /* Shared */,
 				2A22353F262DE2EC004CA4EC /* Sort Colors */,
+				2A69E1A3262E5ADE0003D479 /* Sort Inks */,
+				2A69E1BA262E5ADF0003D479 /* Sort InksTests */,
+				2A69E1C5262E5ADF0003D479 /* Sort InksUITests */,
 				2A22353E262DE2EC004CA4EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				2A22353D262DE2EC004CA4EC /* Sort Colors */,
+				2A69E1A2262E5ADE0003D479 /* Sort Inks.app */,
+				2A69E1B7262E5ADF0003D479 /* Sort InksTests.xctest */,
+				2A69E1C2262E5ADF0003D479 /* Sort InksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +141,57 @@
 				2A223540262DE2EC004CA4EC /* main.swift */,
 			);
 			path = "Sort Colors";
+			sourceTree = "<group>";
+		};
+		2A3A6382262E6F20004A2D83 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C6ABD262E16EF00B523EB /* CrossPlatformDefines.swift */,
+				2A7C6ABA262E16EE00B523EB /* CrossPlatformRenderer.swift */,
+				2A7C6ABC262E16EE00B523EB /* ImageFormatUtility.swift */,
+				2A7C6ABE262E16EF00B523EB /* PushDraw.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2A69E1A3262E5ADE0003D479 /* Sort Inks */ = {
+			isa = PBXGroup;
+			children = (
+				2A69E1A4262E5ADE0003D479 /* AppDelegate.swift */,
+				2A69E1A6262E5ADE0003D479 /* SceneDelegate.swift */,
+				2A69E1A8262E5ADE0003D479 /* ContentView.swift */,
+				2A69E1AA262E5ADE0003D479 /* Assets.xcassets */,
+				2A69E1AF262E5ADE0003D479 /* LaunchScreen.storyboard */,
+				2A69E1B2262E5ADE0003D479 /* Info.plist */,
+				2A69E1AC262E5ADE0003D479 /* Preview Content */,
+			);
+			path = "Sort Inks";
+			sourceTree = "<group>";
+		};
+		2A69E1AC262E5ADE0003D479 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A69E1AD262E5ADE0003D479 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A69E1BA262E5ADF0003D479 /* Sort InksTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A69E1BB262E5ADF0003D479 /* Sort_InksTests.swift */,
+				2A69E1BD262E5ADF0003D479 /* Info.plist */,
+			);
+			path = "Sort InksTests";
+			sourceTree = "<group>";
+		};
+		2A69E1C5262E5ADF0003D479 /* Sort InksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A69E1C6262E5ADF0003D479 /* Sort_InksUITests.swift */,
+				2A69E1C8262E5ADF0003D479 /* Info.plist */,
+			);
+			path = "Sort InksUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,10 +212,64 @@
 			name = "Sort Colors";
 			packageProductDependencies = (
 				2A22354B262DE4F1004CA4EC /* CSV */,
+				2A7C6AB7262E15C100B523EB /* ArgumentParser */,
 			);
 			productName = "Sort Colors";
 			productReference = 2A22353D262DE2EC004CA4EC /* Sort Colors */;
 			productType = "com.apple.product-type.tool";
+		};
+		2A69E1A1262E5ADE0003D479 /* Sort Inks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A69E1C9262E5ADF0003D479 /* Build configuration list for PBXNativeTarget "Sort Inks" */;
+			buildPhases = (
+				2A69E19E262E5ADE0003D479 /* Sources */,
+				2A69E19F262E5ADE0003D479 /* Frameworks */,
+				2A69E1A0262E5ADE0003D479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sort Inks";
+			productName = "Sort Inks";
+			productReference = 2A69E1A2262E5ADE0003D479 /* Sort Inks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A69E1B6262E5ADF0003D479 /* Sort InksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A69E1CC262E5ADF0003D479 /* Build configuration list for PBXNativeTarget "Sort InksTests" */;
+			buildPhases = (
+				2A69E1B3262E5ADF0003D479 /* Sources */,
+				2A69E1B4262E5ADF0003D479 /* Frameworks */,
+				2A69E1B5262E5ADF0003D479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A69E1B9262E5ADF0003D479 /* PBXTargetDependency */,
+			);
+			name = "Sort InksTests";
+			productName = "Sort InksTests";
+			productReference = 2A69E1B7262E5ADF0003D479 /* Sort InksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A69E1C1262E5ADF0003D479 /* Sort InksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A69E1CF262E5ADF0003D479 /* Build configuration list for PBXNativeTarget "Sort InksUITests" */;
+			buildPhases = (
+				2A69E1BE262E5ADF0003D479 /* Sources */,
+				2A69E1BF262E5ADF0003D479 /* Frameworks */,
+				2A69E1C0262E5ADF0003D479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A69E1C4262E5ADF0003D479 /* PBXTargetDependency */,
+			);
+			name = "Sort InksUITests";
+			productName = "Sort InksUITests";
+			productReference = 2A69E1C2262E5ADF0003D479 /* Sort InksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +282,17 @@
 				TargetAttributes = {
 					2A22353C262DE2EC004CA4EC = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					2A69E1A1262E5ADE0003D479 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2A69E1B6262E5ADF0003D479 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2A69E1A1262E5ADE0003D479;
+					};
+					2A69E1C1262E5ADF0003D479 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2A69E1A1262E5ADE0003D479;
 					};
 				};
 			};
@@ -114,26 +307,111 @@
 			mainGroup = 2A223534262DE2EC004CA4EC;
 			packageReferences = (
 				2A22354A262DE4F1004CA4EC /* XCRemoteSwiftPackageReference "CSV.swift" */,
+				2A7C6AB6262E15C100B523EB /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 			);
 			productRefGroup = 2A22353E262DE2EC004CA4EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2A22353C262DE2EC004CA4EC /* Sort Colors */,
+				2A69E1A1262E5ADE0003D479 /* Sort Inks */,
+				2A69E1B6262E5ADF0003D479 /* Sort InksTests */,
+				2A69E1C1262E5ADF0003D479 /* Sort InksUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A69E1A0262E5ADE0003D479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A69E1B1262E5ADE0003D479 /* LaunchScreen.storyboard in Resources */,
+				2A69E1AE262E5ADE0003D479 /* Preview Assets.xcassets in Resources */,
+				2A69E1AB262E5ADE0003D479 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A69E1B5262E5ADF0003D479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A69E1C0262E5ADF0003D479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A223539262DE2EC004CA4EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7C6AC0262E16EF00B523EB /* ImageFormatUtility.swift in Sources */,
+				2A7C6ABF262E16EF00B523EB /* CrossPlatformRenderer.swift in Sources */,
 				2A223541262DE2EC004CA4EC /* main.swift in Sources */,
+				2A7C6AC2262E16EF00B523EB /* CrossPlatformDefines.swift in Sources */,
+				2A7C6AC1262E16EF00B523EB /* PushDraw.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A69E19E262E5ADE0003D479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A69E1A5262E5ADE0003D479 /* AppDelegate.swift in Sources */,
+				2A69E1A7262E5ADE0003D479 /* SceneDelegate.swift in Sources */,
+				2A69E1A9262E5ADE0003D479 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A69E1B3262E5ADF0003D479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A69E1BC262E5ADF0003D479 /* Sort_InksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A69E1BE262E5ADF0003D479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A69E1C7262E5ADF0003D479 /* Sort_InksUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A69E1B9262E5ADF0003D479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A69E1A1262E5ADE0003D479 /* Sort Inks */;
+			targetProxy = 2A69E1B8262E5ADF0003D479 /* PBXContainerItemProxy */;
+		};
+		2A69E1C4262E5ADF0003D479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A69E1A1262E5ADE0003D479 /* Sort Inks */;
+			targetProxy = 2A69E1C3262E5ADF0003D479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A69E1AF262E5ADE0003D479 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A69E1B0262E5ADE0003D479 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2A223542262DE2EC004CA4EC /* Debug */ = {
@@ -273,6 +551,145 @@
 			};
 			name = Release;
 		};
+		2A69E1CA262E5ADF0003D479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sort Inks/Preview Content\"";
+				DEVELOPMENT_TEAM = FU957385G4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sort Inks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.springies.Sort-Inks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A69E1CB262E5ADF0003D479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sort Inks/Preview Content\"";
+				DEVELOPMENT_TEAM = FU957385G4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sort Inks/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.springies.Sort-Inks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A69E1CD262E5ADF0003D479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FU957385G4;
+				INFOPLIST_FILE = "Sort InksTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.springies.Sort-InksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sort Inks.app/Sort Inks";
+			};
+			name = Debug;
+		};
+		2A69E1CE262E5ADF0003D479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FU957385G4;
+				INFOPLIST_FILE = "Sort InksTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.springies.Sort-InksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sort Inks.app/Sort Inks";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A69E1D0262E5ADF0003D479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FU957385G4;
+				INFOPLIST_FILE = "Sort InksUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.springies.Sort-InksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sort Inks";
+			};
+			name = Debug;
+		};
+		2A69E1D1262E5ADF0003D479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FU957385G4;
+				INFOPLIST_FILE = "Sort InksUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.springies.Sort-InksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sort Inks";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -294,6 +711,33 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2A69E1C9262E5ADF0003D479 /* Build configuration list for PBXNativeTarget "Sort Inks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A69E1CA262E5ADF0003D479 /* Debug */,
+				2A69E1CB262E5ADF0003D479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A69E1CC262E5ADF0003D479 /* Build configuration list for PBXNativeTarget "Sort InksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A69E1CD262E5ADF0003D479 /* Debug */,
+				2A69E1CE262E5ADF0003D479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A69E1CF262E5ADF0003D479 /* Build configuration list for PBXNativeTarget "Sort InksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A69E1D0262E5ADF0003D479 /* Debug */,
+				2A69E1D1262E5ADF0003D479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -305,6 +749,14 @@
 				minimumVersion = 2.4.3;
 			};
 		};
+		2A7C6AB6262E15C100B523EB /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -312,6 +764,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2A22354A262DE4F1004CA4EC /* XCRemoteSwiftPackageReference "CSV.swift" */;
 			productName = CSV;
+		};
+		2A7C6AB7262E15C100B523EB /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A7C6AB6262E15C100B523EB /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

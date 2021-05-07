@@ -24,7 +24,7 @@ extension NSColor {
 
 var colors : Set<NSColor> = Set.init()
 
-let path = Bundle.main.path(forResource: "jeffrey_collected_inks", ofType: "csv")!
+let path = Bundle.main.path(forResource: "mountain_collected_inks", ofType: "csv")!
 let stream = InputStream(fileAtPath: path)!
 let csv = try! CSVReader(stream: stream, hasHeaderRow: true, delimiter: ";")
 while csv.next() != nil {
@@ -35,17 +35,19 @@ while csv.next() != nil {
 }
 
 let sorted_colors = colors.sorted { (a, b) -> Bool in
-    if a.hueComponent < b.hueComponent {
-        return true
-    }
-    if a.hueComponent > b.hueComponent {
-        return false
-    }
+
 
     if a.saturationComponent < b.saturationComponent {
         return true
     }
     if a.saturationComponent > b.saturationComponent {
+        return false
+    }
+
+    if a.hueComponent < b.hueComponent {
+        return true
+    }
+    if a.hueComponent > b.hueComponent {
         return false
     }
 
@@ -55,6 +57,7 @@ let sorted_colors = colors.sorted { (a, b) -> Bool in
     if a.brightnessComponent > b.brightnessComponent {
         return false
     }
+
 
     return true
 }
